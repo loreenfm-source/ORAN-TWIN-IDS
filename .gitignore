@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and editors
+.venv/
+venv/
+env/
+.env
+.envrc
+.idea/
+.vscode/
+.ipynb_checkpoints/
+*.ipynb
+
+# Data, models and generated artefacts (the dataset lives on Zenodo)
+data/
+outputs/
+results/
+*.csv
+!metadata/*.csv
+*.parquet
+*.npy
+*.npz
+*.zip
+*.joblib
+*.pkl
+*.pth
+*.pt
+*.log
+manifest_progress.json
+
+# Keep repository metadata
+!metadata/*.json

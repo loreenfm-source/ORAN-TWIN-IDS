@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+markers = [
+    "slow: full-size simulations (about a minute each)",
+    "data: needs the released files; set ORAN_TWIN_IDS_DATA to their directory",
+]

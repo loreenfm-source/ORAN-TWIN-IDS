@@ -1,0 +1,16 @@
+# Python 3.11.7. Versions of the environment that ran the v2 experiments.
+numpy==1.26.4
+pandas==2.1.4
+scikit-learn==1.9.0
+xgboost==2.1.1
+lightgbm==4.6.0
+shap==0.47.0
+umap-learn==0.5.11
+matplotlib==3.8.0
+seaborn==0.12.2
+joblib==1.5.3
+tqdm==4.65.0
+# PyTorch (evaluation/temporal_dl_benchmark.py, experimental/) - install separately
+# for your CUDA version; the paper used 2.6.0+cu124:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# Tests: pip install pytest
